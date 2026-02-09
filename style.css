@@ -1,0 +1,78 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #1F2937;
+}
+
+.header .header-menu{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 1%;
+}
+
+.header .header-menu ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    margin-top: 3%;
+}
+
+.header .header-menu ul li a{
+    color: white;
+    text-decoration: none;
+    transition: .5s ease;
+}
+
+.header .header-menu ul li:hover{
+    transition: .5s ease;
+    transform: scale(1.1);
+}
+
+.header .header-body{
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    color: white;
+    margin-top: 5%;
+    padding-bottom: 50px;
+}
+
+.header .header-body .about-section .heading{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    line-height: 80%;
+    margin-bottom: 5%;
+}
+
+.header .header-body .about-section .description{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 4%;
+}
+
+.header .header-body .about-section button{
+    color: white;
+    background-color: #3882F6;
+    border-radius: 15px;
+    padding: 2% 5%;
+    border: 1px solid #3882F6;
+    font-size: 25px;
+    margin-top: 4%;
+    margin-bottom: 10px;
+    transition: .2s ease;
+}
+
+.header .header-body .about-section button:hover{
+    color: #3882F6;
+    border: #3882F6 1px solid;
+    background-color: white;
+    transition: .2s ease;
+    transform: scale(1.1);
+    cursor: pointer;
+}
