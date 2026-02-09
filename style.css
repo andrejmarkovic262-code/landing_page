@@ -76,3 +76,38 @@
     transform: scale(1.1);
     cursor: pointer;
 }
+
+.rnd-info{
+    margin-top: 4%;
+}
+
+.rnd-info h1{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.rnd-info .flex{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.rnd-info .flex .informations p {
+    text-align: center;
+}
+
+.rnd-info .informations .image{
+    border: 3px solid #3882F6;
+    height: 120px;
+    width: 100%;
+    border-radius: 20px;
+    transition: .5s ease;
+}
+
+.rnd-info .informations .image:hover{
+    transform: scale(1.1);
+    transition: .5s ease;
+}
