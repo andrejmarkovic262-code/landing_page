@@ -111,3 +111,26 @@
     transform: scale(1.1);
     transition: .5s ease;
 }
+
+.quote-section{
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.quote-section .quote{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    text-align: left;
+}
+
+.quote-section .writer{
+    color: #1F2937;
+    font-weight: 900;
+    text-align: right;
+    font-size: 26px;
+}
